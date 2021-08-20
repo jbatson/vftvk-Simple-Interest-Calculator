@@ -13,13 +13,14 @@ function compute()
     var rate = document.getElementById('rate').value;
     var years = document.getElementById('years').value;
     var interest = principal * years * rate /100;
-    var year = new Date.getFullYear() + parseInt(years);
+    var year = new Date();
+    var fullyear = year.getFullYear() + parseInt(years);
 
     // create message result
     var message = 'If you deposit <span class="highlight">' + principal + '</span><br>';
     message += 'at an interest rate of <span class="highlight">' + rate + '%</span>' + '<br>';
     message += 'You will receive an amount of <span class="highlight">' + interest + '</span><br>';
-    message += 'in the year <span class="highlight">' + year + '</span><br>';
+    message += 'in the year <span class="highlight">' + fullyear + '</span><br>';
 
     document.getElementById('result') = message;
 }
