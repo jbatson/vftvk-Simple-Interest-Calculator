@@ -22,7 +22,7 @@ function compute()
     message += 'You will receive an amount of <span class="highlight">' + interest + '</span><br>';
     message += 'in the year <span class="highlight">' + fullyear + '</span><br>';
 
-    document.getElementById('result') = message;
+    document.getElementById('result').innerHTML = message;
 }
         
 function updateRate()
