@@ -12,4 +12,4 @@ h1{color:grey; font-family: verdana;}
 .maindiv div {margin-bottom: 10px;}
 
 .highlight {background-color: yellow; opacity: 80%;}
-.form-title {width: 100px;}
+.form-title {width: 100px; display: inline-block;}
