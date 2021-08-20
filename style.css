@@ -21,3 +21,5 @@ input[type="number"] {
 input[type="range"] {
   width: 100px;
 }
+
+footer {font-size: 8px;}
