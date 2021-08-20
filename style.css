@@ -15,9 +15,9 @@ h1{color:grey; font-family: verdana;}
 .form-title {width: 100px; display: inline-block;}
 
 input[type="number"] {
-   width:50px;
+   width: 100px;
 }
 
 input[type="range"] {
-  width:100px;
+  width: 100px;
 }
