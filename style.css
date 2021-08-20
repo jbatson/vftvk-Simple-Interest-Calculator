@@ -14,5 +14,10 @@ h1{color:grey; font-family: verdana;}
 .highlight {background-color: yellow; opacity: 80%;}
 .form-title {width: 100px; display: inline-block;}
 
-#principal {width: 40px;}
-#rate {width: 100px;}
+input[type="number"] {
+   width:50px;
+}
+
+input[type="range"] {
+  width:100px;
+}
