@@ -9,5 +9,7 @@ h1{color:grey; font-family: verdana;}
     align: center;
 }
 
+.maindiv div {margin-bottom: 10px;}
+
 .highlight {background-color: yellow; opacity: 80%;}
-.form-title {width: 50px;}
+.form-title {width: 100px;}
